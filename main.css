@@ -111,3 +111,44 @@ h4.ban::before {
   content: '☮️ ';
   color: #800080;
 }
+
+table.cal {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.cal td {
+  border: 1px solid #333;
+  text-align: center;
+}
+
+table.cal td a {
+  color: green;
+  font-weight: bold;
+}
+
+table.cal td:not(:has(a)) {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: not-allowed;
+}
+
+table.cal td.today {
+  background-color: dark-violet;
+  color: white;
+}
+
+table.cal td:hover {
+  background-color: lavender;
+}
+
+ul.clfooter > li:first-child {
+  font-weight: bold;
+}
+
+ul.clfooter > li:last-child {
+  color: #800080;
+}
+
+ul.clfooter > li:nth-child(odd) {
+  font-style: italic;
+}
